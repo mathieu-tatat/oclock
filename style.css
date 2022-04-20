@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    width: 70%;
+    margin: auto;
+    border-radius: 12%;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #db1818;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    margin:auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.btn{
+    background-color: #db1818;
+    border-radius: 8px;
+    border: none;
+    margin-right: 3px;
+    height: 40PX;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-right: 8px;
+}
+.btn:hover{
+    background-color: #550606;
+}
+
+
+ footer{
+  margin-top:150px ;
+  display:flex ;
+  justify-content: center;
+ }
+
+ #clock{
+     font-size: 80px;
+     border: dashed 4px #db1818;
+     border-radius: 12px;
+     margin-bottom: 10px;
+     padding: 10px;
+     display: flex;
+
+
+ }
+
+ .navigation{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #secondsInput{
+    font-size: 45px;
+    width: 105px;
+    display: flex;
+    text-align: center;
+    background-color: #db1818;
+    font-family: 'Rubik Moonrocks', cursive;
+    border: none;
+    border-radius: 16%;
+  }
+
+  #minutesInput{
+    font-size: 45px;
+    width: 105px;
+    text-align: center;
+    background-color: #db1818;
+    font-family: 'Rubik Moonrocks', cursive;
+    border: none;
+    border-radius: 16%;
+  }
+
+  #hoursInput{
+    font-size: 45px;
+    width: 105px;
+    text-align: center;
+    background-color: #db1818;
+    font-family: 'Rubik Moonrocks', cursive;
+    border: none;
+    border-radius: 16%;
+  }
+  
+ #alarmButtonDiv{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ #alarmDiv{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+ }
+
+ #alarmInput{
+     text-align: center;
+ }
+ #timerDiv{
+     display: flex;
+     justify-content: center;
+ }
+
+#chronoDiv{
+    display: flex;
+    justify-content: center;
+}
