@@ -190,9 +190,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         //creation des colonnes pour l'affichage du timer
         let semiColon = document.createElement('DIV');
-        semiColon.innerText = ":";
+        semiColon.innerText = " : ";
         let semiColon2 = document.createElement('DIV');
-        semiColon2.innerText = ":";
+        semiColon2.innerText = " : ";
 
         clock.appendChild(hoursInput);
         clock.appendChild(semiColon);
@@ -237,6 +237,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             let testMinute = parseInt(minutesInput.value);
             let testSeconds = parseInt(secondsInput.value);
             startingHour = (testHour * 3600) + ( testMinute * 60) + (testSeconds);            
+            console.log(startingHour);
             timerInterval = setInterval(decreaseTime, 1000);
         });
 
@@ -476,7 +477,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         stopButton.addEventListener('click', () => {
             clearInterval(alarmVerification)
             snd.pause();  
-            
+            alert("it's time")  
         })
 
         function throwAlarm() {
