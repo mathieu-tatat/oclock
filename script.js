@@ -237,7 +237,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             let testMinute = parseInt(minutesInput.value);
             let testSeconds = parseInt(secondsInput.value);
             startingHour = (testHour * 3600) + ( testMinute * 60) + (testSeconds);            
-            console.log(startingHour);
             timerInterval = setInterval(decreaseTime, 1000);
         });
 
